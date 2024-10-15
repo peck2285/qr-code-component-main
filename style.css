@@ -1,0 +1,71 @@
+
+
+
+/* Réinitialisation des marges par défaut */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body {
+  height: 100%;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(216, 15%, 48%); /* Slate 300 */
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+/* Style pour la carte du QR code */
+.code-qr {
+  background-color: hsl(0, 0%, 100%); 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+  max-width: 320px;
+  text-align: center;
+}
+
+/* Image du QR code */
+.code-qr-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Titre */
+.code-qr-title h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(218, 45%, 22%); 
+  margin-bottom: 15px;
+}
+
+/* Paragraphe */
+.code-qr-text p {
+  color: hsl(216, 15%, 48%); 
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 375px) {
+  .code-qr {
+    max-width: 280px;
+    padding: 15px;
+  }
+
+  .code-qr-title h1 {
+    font-size: 16px;
+  }
+
+  .code-qr-text p {
+    font-size: 14px;
+  }
+}
