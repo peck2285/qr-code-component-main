@@ -15,7 +15,7 @@ Screenshot
 
 Links
 Solution URL: 
-Live Site URL: Live demo on Netlify
+Live Site URL: https://peck2285.github.io/qr-code-component-main
 My Process
 Built With
 Semantic HTML5 markup
